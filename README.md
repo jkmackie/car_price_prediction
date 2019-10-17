@@ -11,6 +11,6 @@
 
 *****
 ### <ins>Proposed learning</ins>
-* **extract name, address, payor, and amount from invoices**
+* **extract name, address, payee, and amount from invoices**
 
 
