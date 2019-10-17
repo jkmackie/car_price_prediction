@@ -2,12 +2,12 @@
 *tensorflow lessons*
 *****
 ### <ins>Installation</ins>
-* **should I use Windows10 with gpu, Ubuntu laptop without gpu, or cloud service?**
-* **good setup for stable, commercial use?**
-* **If using Windows, should I install tensorflow through Anaconda?**
+* **Used Anaconda on Windows 10**
+* **Did easy installation using both conda and pip**
+* **New environment recommended as package compatibility could get broken.  Details in notebook.**
 
 #### <ins>Tensorflow-related modules in conda-forge</ins>
-![anaconda tf](images/anaconda_tf1.PNG)
+![anaconda tf](images/cuda.PNG)
 
 *****
 ### <ins>Proposed learning</ins>
