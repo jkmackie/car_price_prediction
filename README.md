@@ -9,6 +9,7 @@
 #### <ins>Tensorflow-related modules in conda-forge</ins>
 ![anaconda tf](images/anaconda_tf1.PNG)
 
+*****
 ### <ins>Proposed learning</ins>
 * **extract name, address, payor, and amount from invoices**
 
