@@ -3,9 +3,9 @@
 *****
 ### <ins>Installation</ins>
 * **Used Anaconda on Windows 10**
-* **Did easy installation using both conda and pip**
+* **Did installation using both conda and pip installers**
 * **New environment recommended as package compatibility could get broken.  Details in notebook.**
-* **TF 2.0 installation: pip install tensorflow-gpu, *not* conda install**
+* **TF 2.0 installation: `pip install tensorflow-gpu`, *not* conda install**
 
 #### <ins>Packages installed with conda</ins>
 ![anaconda tf](images/cuda.PNG)
