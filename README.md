@@ -12,6 +12,7 @@
 
 *****
 ### <ins>Proposed learning</ins>
+* **classify image**
 * **extract name, address, payee, and amount from invoices**
 
 
