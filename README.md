@@ -11,6 +11,12 @@
 ![anaconda tf](images/cuda.PNG)
 
 *****
+### <ins>Resources</ins>
+* **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2</ins>**
+* **[TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)**
+
+
+*****
 ### <ins>Proposed learning</ins>
 * **classify image**
 * **extract name, address, payee, and amount from invoices**
