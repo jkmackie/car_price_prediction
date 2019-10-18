@@ -2,9 +2,8 @@
 *tensorflow lessons*
 *****
 ### <ins>Installation</ins>
-* **Used Anaconda on Windows 10**
-* **Did installation using both conda and pip installers**
-* **New environment recommended as package compatibility could get broken.  Details in notebook.**
+* **Anaconda on Windows 10 Version 1903 *with GPU***
+* **Both conda and pip installer used**
 * **TF 2.0 installation: `pip install tensorflow-gpu`, *not* conda install**
 
 #### <ins>Packages installed with conda</ins>
