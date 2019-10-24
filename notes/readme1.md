@@ -1,5 +1,5 @@
 ### Week 1 Notes - Draft1
-**This is research notes.**
+*Research notes October 24 - current*
 ***
 
 Car Price Prediction using Machine  Learning Techniques (Feb19) - ensemble provides much better predictions
