@@ -6,3 +6,7 @@ Scrape car price data from [Craigslist Houston cars+trucks](https://houston.crai
 * Get at least 50 observations per model trim
 * Organize the raw features in a database
 * Clean the features so they are ready for modeling
+
+Scraped Houston CraigsList
+* Filtered for owner ('cto') and make_model='honda'
+* start_urls = ['https://houston.craigslist.org/search/cto?auto_make_model=honda']
