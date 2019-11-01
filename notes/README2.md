@@ -7,6 +7,6 @@
 * Organize the raw features in a database
 * Clean the features so they are ready for modeling
 
-**Scraped Houston CraigsList**
+**Scrape Filter Details**
 * Filtered for owner ('cto') and make_model='honda'
 * start_urls = ['https://houston.craigslist.org/search/cto?auto_make_model=honda']
