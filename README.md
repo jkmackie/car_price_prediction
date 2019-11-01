@@ -25,4 +25,7 @@
 * **classify image**
 * **extract name, address, payee, and amount from invoices**
 
+### <ins>vehicles.json</ins>
+* start_urls = ['https://houston.craigslist.org/search/cto?auto_make_model=honda']
+
 
