@@ -1,11 +1,6 @@
 # tensorflow2
 *tensorflow lessons*
 ***
-
-
-### **[Shortcut to Weekly Notes Folder](https://github.com/jkmackie/tensorflow2/tree/master/notes)**
-
-***
 ### <ins>Resources</ins>
 * **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>[Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2](https://www.amazon.com/dp/1492032646/ref=cm_sw_r_tw_dp_U_x_HWDQDb0DEX69X)</ins>**
 * **[TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)**
