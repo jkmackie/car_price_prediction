@@ -1,6 +1,8 @@
 # car_price_prediction
 *CraigsList vehicle price prediction with scikit-learn and tensorflow 2.0 libraries*
-***
+
+---
+
 ### <ins>Resources</ins>
 * **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>[Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2](https://www.amazon.com/dp/1492032646/ref=cm_sw_r_tw_dp_U_x_HWDQDb0DEX69X)</ins>**
 * **[TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)**
@@ -19,6 +21,7 @@
 ### start_url screenshot:
 ![ford_screenshot](cl_ford_query.PNG)
 
+
 ***
 ### Week 1 Notes
 *Research notes October 24 - October 30*
@@ -36,6 +39,7 @@ How to Build, Develop and Deploy a Machine Learning Model to predict cars price 
 
 Scrapy spider tutorials:
 * https://youtu.be/gGnGnIPgR84
+
 
 ***
 ### Week 2 Notes - Draft1
