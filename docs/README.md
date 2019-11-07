@@ -1,7 +1,7 @@
 # car_price_prediction
 **CraigsList vehicle price prediction with scikit-learn and tensorflow 2.0 libraries**
 
----
+<div></div>
 
 ### We are going to scrape auto features from CraigsList to predict prices.
 
@@ -11,7 +11,8 @@
 * **[TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)**
 
 <br><br/>
-***
+<div></div>
+
 ### <ins>ford_vehicle.json</ins>
 * start_urls = [https://houston.craigslist.org/search/cta?auto_make_model=ford](https://houston.craigslist.org/search/cta?auto_make_model=ford)
 * contains vehicle url, title, price, subLocation (Ex. Katy), attribute dictionary, and image dictionary
@@ -20,10 +21,12 @@
 ### start_url screenshot:
 ![ford_screenshot](cl_ford_query.PNG)
 <br><br/>
-***
+<div></div>
+
 ### Week 1 Notes
 **Research notes October 24 - October 30**
-***
+
+<div></div>
 
 Car Price Prediction using Machine  Learning Techniques (Feb19) - ensemble provides much better predictions
 * http://www.temjournal.com/content/81/TEMJournalFebruary2019_113_118.pdf
@@ -39,10 +42,12 @@ Scrapy spider tutorials:
 * https://youtu.be/gGnGnIPgR84
 
 <br><br/>
-***
+<div></div>
+
 ### Week 2 Notes - Draft1
 **Notes October 31 - November 6**
-***
+
+<div></div>
 
 **Scrape car price data from [Craigslist Houston cars+trucks](https://houston.craigslist.org/d/cars-trucks/search/cta)**
 * Get 50+ observations per model trim
