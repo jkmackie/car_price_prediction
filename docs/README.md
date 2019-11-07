@@ -24,7 +24,7 @@
 
 ***
 ### Week 1 Notes
-*Research notes October 24 - October 30*
+**Research notes October 24 - October 30**
 ***
 
 Car Price Prediction using Machine  Learning Techniques (Feb19) - ensemble provides much better predictions
@@ -43,7 +43,7 @@ Scrapy spider tutorials:
 
 ***
 ### Week 2 Notes - Draft1
-*Notes October 31 - November 6*
+**Notes October 31 - November 6**
 ***
 
 **Scrape car price data from [Craigslist Houston cars+trucks](https://houston.craigslist.org/d/cars-trucks/search/cta)**
