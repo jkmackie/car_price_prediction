@@ -17,6 +17,6 @@
 * contains vehicle url, title, price, subLocation (Ex. Katy), attribute dictionary, and image dictionary
 ***
 ### start_url screenshot:
-![ford_screenshot](images/cl_ford_query.PNG)
+![ford_screenshot](cl_ford_query.PNG)
 
 
