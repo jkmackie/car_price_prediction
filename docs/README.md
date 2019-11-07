@@ -10,16 +10,16 @@
 * **[TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)**
 * **[TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)**
 
-
+<br><br/>
 ***
 ### <ins>vehicle.json</ins>
 * start_urls = [https://houston.craigslist.org/search/cta?auto_make_model=ford](https://houston.craigslist.org/search/cta?auto_make_model=ford)
 * contains vehicle url, title, price, subLocation (Ex. Katy), attribute dictionary, and image dictionary
 ***
+<br><br/>
 ### start_url screenshot:
 ![ford_screenshot](cl_ford_query.PNG)
-
-
+<br><br/>
 ***
 ### Week 1 Notes
 **Research notes October 24 - October 30**
@@ -38,7 +38,7 @@ How to Build, Develop and Deploy a Machine Learning Model to predict cars price 
 Scrapy spider tutorials:
 * https://youtu.be/gGnGnIPgR84
 
-
+<br><br/>
 ***
 ### Week 2 Notes - Draft1
 **Notes October 31 - November 6**
