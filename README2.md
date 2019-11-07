@@ -1,5 +1,5 @@
 ### Week 1 Notes - Draft1
-*Notes October 31 - current*
+*Notes October 31 - November 6*
 ***
 
 **Scrape car price data from [Craigslist Houston cars+trucks](https://houston.craigslist.org/d/cars-trucks/search/cta)**
@@ -8,5 +8,5 @@
 * Clean the features so they are ready for modeling
 
 **Scrape Filter Details**
-* Filtered for owner ('cto') and make_model='honda'
-* start_urls = ['https://houston.craigslist.org/search/cto?auto_make_model=honda']
+* Filtered for dealer ('ctd') or owner ('cto') and make_model='honda'
+* start_urls = ['https://houston.craigslist.org/search/cta?auto_make_model=ford']
