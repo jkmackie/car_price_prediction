@@ -1,5 +1,5 @@
 # car_price_prediction
-*CraigsList vehicle price prediction with scikit-learn and tensorflow 2.0 libraries*
+**CraigsList vehicle price prediction with scikit-learn and tensorflow 2.0 libraries**
 
 ---
 
