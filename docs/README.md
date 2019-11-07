@@ -24,7 +24,7 @@
 
 ---
 ### Week 1 Notes
-**Research notes October 24 - October 30**
+*Notes October 24 - October 30*
 
 
 
@@ -43,8 +43,8 @@ Scrapy spider tutorials:
 <br><br/>
 
 ---
-### Week 2 Notes - Draft1
-**Notes October 31 - November 6**
+### Week 2 Notes - Draft
+*Notes October 31 - November 6*
 
 
 
@@ -56,6 +56,16 @@ Scrapy spider tutorials:
 **Scrape Filter Details**
 * Filtered for dealer ('ctd') or owner ('cto') and make_model='honda'
 * start_urls = ['https://houston.craigslist.org/search/cta?auto_make_model=ford']
+
+---
+### Week 3 Notes - Draft
+*Notes November 7 - November 13*
+
+
+
+**Outlier detection techniques**
+* [5 Detection Techniques](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
+* [End-to-End Project on Time Series](https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b)
 
 
 
