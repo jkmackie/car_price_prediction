@@ -1,5 +1,5 @@
-# tensorflow2
-*tensorflow lessons*
+# car_price_prediction
+*CraigsList vehicle price prediction with scikit-learn and tensorflow 2.0 libraries*
 ***
 ### <ins>Resources</ins>
 * **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>[Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2](https://www.amazon.com/dp/1492032646/ref=cm_sw_r_tw_dp_U_x_HWDQDb0DEX69X)</ins>**
