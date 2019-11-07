@@ -9,7 +9,6 @@
 * **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>[Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2](https://www.amazon.com/dp/1492032646/ref=cm_sw_r_tw_dp_U_x_HWDQDb0DEX69X)</ins>**
 * **[TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)**
 * **[TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)**
-
 <br><br/>
 
 
@@ -41,7 +40,6 @@ How to Build, Develop and Deploy a Machine Learning Model to predict cars price 
 
 Scrapy spider tutorials:
 * https://youtu.be/gGnGnIPgR84
-
 <br><br/>
 
 ---
