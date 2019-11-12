@@ -65,9 +65,8 @@ Scrapy spider tutorials:
 * Changed data parsing tehnique from regex to string splitting
 * Added LightGBM model
 * Added numeric poly features and category pair features
-**Outlier detection techniques**
-* [5 Detection Techniques](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
-* [End-to-End Project on Time Series](https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b)
+* Brainstorming effecive ways to remove outliers.  Some promising techniques are here:  [5 Detection Techniques](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
+
 
 
 
