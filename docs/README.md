@@ -66,7 +66,7 @@ Scrapy spider tutorials:
 * Added LightGBM model
 * Added numeric poly features and category pair features
 * Brainstorming effecive ways to remove outliers.  Some promising techniques are here:  [5 Detection Techniques](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
-* **Trim cleanup is required.  Target mitigating 100% of trim errors.**
+* Trim spelling fix, None fix, and NaN fix was counterintuitive.  Fixing NaN only produced the best result!
 * **Certain prices are actually down payments.  Usually $1,000 or less and "down" may be in the listing.**
 
 
