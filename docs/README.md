@@ -74,7 +74,8 @@ Scrapy spider tutorials:
 * Wrote script to download images for 7,300 vehicle listings.
 * Built residuals visualization with bounds marking 3 standard deviations
 * Improved invalid price identification by mining text for money "Down".
-* Added VIN feature which revealed 60% of listings are duplicates!  This also caused data leakage because duplicates may fall in both train and test.
+* Added VIN feature which revealed a large number of duplicates!  This caused data leakage because duplicates may fall in both train and test.  
+* Data leakage in test **overstated** prediction performance because certain vehicles in train and test were the same vehicles (same features and price).  The unique listing, called vehicleID, was different.  However, the VIN for certain vehicles, was in many listings.
 
 
 ### Week 5 Notes - Draft
