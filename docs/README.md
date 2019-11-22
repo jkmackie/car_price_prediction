@@ -69,6 +69,15 @@ Scrapy spider tutorials:
 * Trim spelling fix, None fix, and NaN fix was counterintuitive.  Fixing NaN only produced the best result!
 * **Certain prices are actually down payments.  Usually $1,000 or less and "down" may be in the listing.**
 
+### Week 4 Notes - Draft
+*Notes November 14 - November 20*
+* Wrote script to download images for 7,300 vehicle listings.
+* Built residuals visualization with bounds marking 3 standard deviations
+* Improved invalid price identification by mining text for money "Down".
+* Added VIN feature which revealed 60% of listings are duplicates!  This also caused data leakage because duplicates may fall in both train and test.
 
 
+### Week 5 Notes - Draft
+*Notes November 21 - November 27*
+* Rebuilt Make/Model/Trim pipeline to better use regular expressions.
 
