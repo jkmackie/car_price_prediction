@@ -82,4 +82,5 @@ Scrapy spider tutorials:
 *Notes November 21 - November 27*
 * Rebuilt Make/Model/Trim pipeline to better use regular expressions.
 * At the moment, using trims "as-is" works better than harmonizing spellings.  Need to investigate further.
+* Transformed Odometer and Year features so correlation to Price improves.  Exponentiation improves left skew and log improves right skew.
 
