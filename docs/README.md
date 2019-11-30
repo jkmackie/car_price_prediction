@@ -26,8 +26,6 @@
 ### Week 1 Notes
 *Notes October 24 - October 30*
 
-
-
 Car Price Prediction using Machine  Learning Techniques (Feb19) - ensemble provides much better predictions
 * http://www.temjournal.com/content/81/TEMJournalFebruary2019_113_118.pdf
 
@@ -46,8 +44,6 @@ Scrapy spider tutorials:
 ### Week 2 Notes - Draft
 *Notes October 31 - November 6*
 
-
-
 **Scrape car price data from [Craigslist Houston cars+trucks](https://houston.craigslist.org/d/cars-trucks/search/cta)**
 * Get 50+ observations per model trim
 * Organize the raw features in a database
@@ -61,7 +57,6 @@ Scrapy spider tutorials:
 ### Week 3 Notes - Draft
 *Notes November 7 - November 13*
 
-
 * Changed data parsing tehnique from regex to string splitting
 * Added LightGBM model
 * Added numeric poly features and category pair features
@@ -69,6 +64,7 @@ Scrapy spider tutorials:
 * Trim spelling fix, None fix, and NaN fix was counterintuitive.  Fixing NaN only produced the best result!
 * **Certain prices are actually down payments.  Usually $1,000 or less and "down" may be in the listing.**
 
+---
 ### Week 4 Notes - Draft
 *Notes November 14 - November 20*
 * Wrote script to download images for 7,300 vehicle listings.
@@ -77,10 +73,13 @@ Scrapy spider tutorials:
 * Added VIN feature which revealed a large number of duplicates!  This caused data leakage because duplicates may fall in both train and test. Autos with matching Title/Odometer/Price we also flagged as duplicates.
 * Data leakage in test **overstated** prediction performance because certain vehicles in train and test were the same vehicles (same features and price).  The unique listing, called vehicleID, was different.  However, the VIN for certain vehicles, was in many listings.
 
-
+---
 ### Week 5 Notes - Draft
 *Notes November 21 - November 27*
 * Rebuilt Make/Model/Trim pipeline to better use regular expressions.
+* Used regex to detect invalid "money down" prices
+* Imputed missing odometer values with Year-Model median or Year median mileage.
 * At the moment, using trims "as-is" works better than harmonizing spellings.  Need to investigate further.
 * Transformed Odometer and Year features so correlation to Price improves.  Exponentiation improves left skew and log improves right skew.
+* Added Isolation Forest to detect anomolies
 
