@@ -83,10 +83,12 @@ Scrapy spider tutorials:
 * Transformed Odometer and Year features so correlation to Price improves.  Exponentiation improves left skew and log improves right skew.
 * Added Isolation Forest to detect anomolies
 
+---
 ### Week 6 Notes - Draft
 *Notes November 21 - November 27*
 * Dumped rare Trims - less than 50.  Also, dumped 'None' Trim. 
 * Improved residuals plots with error statistics and predicted vs true scatterplot
 * Separated data preprocessing from model code
+* Wrote outline of meetings and skills learned
 
 
