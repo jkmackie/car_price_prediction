@@ -89,6 +89,8 @@ Scrapy spider tutorials:
 * Dumped rare Trims - less than 50.  Also, dumped 'None' Trim which mainly helps the linear model.
 * Improved residuals plots with error statistics and predicted vs true scatterplot
 * Separated data preprocessing from model code
-* Wrote outline of meetings and skills learned
+* Wrote outline of meetings and skills learned. Skills learned include residual analysis, scrapy website scraping, regex queries,
+isolation forest anomaly detection, downloading images with pillow using image dictionary, deserializing json list, advanced
+imputing of values using data dictionaries
 
 
