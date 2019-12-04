@@ -86,7 +86,7 @@ Scrapy spider tutorials:
 ---
 ### Week 6 Notes - Draft
 *Notes November 21 - November 27*
-* Dumped rare Trims - less than 50.  Also, dumped 'None' Trim. 
+* Dumped rare Trims - less than 50.  Also, dumped 'None' Trim which mainly helps the linear model.
 * Improved residuals plots with error statistics and predicted vs true scatterplot
 * Separated data preprocessing from model code
 * Wrote outline of meetings and skills learned
