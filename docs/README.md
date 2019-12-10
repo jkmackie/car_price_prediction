@@ -41,7 +41,7 @@ Scrapy spider tutorials:
 <br><br/>
 
 ---
-### Week 2 Notes - Draft
+### Week 2 Notes
 *Notes October 31 - November 6*
 
 **Scrape car price data from [Craigslist Houston cars+trucks](https://houston.craigslist.org/d/cars-trucks/search/cta)**
@@ -54,7 +54,7 @@ Scrapy spider tutorials:
 * start_urls = ['https://houston.craigslist.org/search/cta?auto_make_model=ford']
 
 ---
-### Week 3 Notes - Draft
+### Week 3 Notes
 *Notes November 7 - November 13*
 
 * Changed data parsing tehnique from regex to string splitting
@@ -65,7 +65,7 @@ Scrapy spider tutorials:
 * Certain prices are down payments.  $5,000 or less and "down" may be in the listing.
 
 ---
-### Week 4 Notes - Draft
+### Week 4 Notes
 *Notes November 14 - November 20*
 * Wrote script to download images for 7,300 vehicle listings.
 * Built residuals visualization with bounds marking 3 standard deviations
@@ -74,7 +74,7 @@ Scrapy spider tutorials:
 * Data leakage in test **overstated** prediction performance because certain vehicles in train and test were the same vehicles (same features and price).  The unique listing, called vehicleID, was different.  However, the VIN for certain vehicles, was in many listings.
 
 ---
-### Week 5 Notes - Draft
+### Week 5 Notes
 *Notes November 21 - November 27*
 * Rebuilt Make/Model/Trim pipeline to better use regular expressions.
 * Used regex to detect invalid "money down" prices
@@ -84,7 +84,7 @@ Scrapy spider tutorials:
 * Added Isolation Forest to detect anomolies
 
 ---
-### Week 6 Notes - Draft
+### Week 6 Notes
 *Notes November 21 - November 27*
 * Dumped rare Trims - less than 50.  Also, dumped 'None' Trim which mainly helps the linear model.
 * Improved residuals plots with error statistics and predicted vs true scatterplot
@@ -92,5 +92,15 @@ Scrapy spider tutorials:
 * Wrote outline of meetings and skills learned. Skills learned include residual analysis, scrapy website scraping, regex queries,
 isolation forest anomaly detection, downloading images with pillow using image dictionary, deserializing json list, advanced
 imputing of values using data dictionaries
+
+---
+### Week 7-8 Notes - Draft
+*Notes November 28 - Dec 11*
+* Stratified train and test by Model_Trim, rather than Trim alone.  Minimum 30+ Model_Trim gives satisfactory predictions.
+* Added KNN Regressor and Support Vector Regressor algorithms.
+* Implemented both SQLite3 and PostgreSQL11 databases
+* Implemented FTP server vsftp with TLS security using LetsEncrypt certificates.
+* Started Part 1 of 2 part documentation on Medium.  Part 1: Databases and Part2: Modelling.
+* Need to learn Django
 
 
