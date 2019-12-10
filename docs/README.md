@@ -89,18 +89,19 @@ Scrapy spider tutorials:
 * Dumped rare Trims - less than 50.  Also, dumped 'None' Trim which mainly helps the linear model.
 * Improved residuals plots with error statistics and predicted vs true scatterplot
 * Separated data preprocessing from model code
-* Wrote outline of meetings and skills learned. Skills learned include residual analysis, scrapy website scraping, regex queries,
-isolation forest anomaly detection, downloading images with pillow using image dictionary, deserializing json list, advanced
-imputing of values using data dictionaries
+* Wrote outline of meetings and skills learned. Skills learned include residual analysis, scrapy website scraping, regex queries, isolation forest anomaly detection, downloading images with pillow using image dictionary, deserializing json list, advanced imputing of values using data dictionaries
 
 ---
 ### Week 7-8 Notes - Draft
 *Notes November 28 - Dec 11*
-* Stratified train and test by Model_Trim, rather than Trim alone.  Minimum 30+ Model_Trim gives satisfactory predictions.
+* Stratified train and test by Model_Trim, rather than Trim alone.  Minimum 30+ Model_Trim count does decent predictions.
+Imputing odometer by Year rather than Year-Model was reduced from 6 combos to 1.  But, no prediction benefit because all
+combos are exclusive to train.
 * Added KNN Regressor and Support Vector Regressor algorithms.
-* Implemented both SQLite3 and PostgreSQL11 databases
-* Implemented FTP server vsftp with TLS security using LetsEncrypt certificates.
+* Standardized algorithm scoring
+* Implemented both SQLite3 and PostgreSQL11 databases.
+* Implemented FTP server vsftp with security using LetsEncrypt SSL certificates.
 * Started Part 1 of 2 part documentation on Medium.  Part 1: Databases and Part2: Modelling.
-* Need to learn Django
+* To Do:  Need to learn Django!  It is more flexible than flask and good with databases.
 
 
