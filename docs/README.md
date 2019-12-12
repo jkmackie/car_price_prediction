@@ -100,8 +100,8 @@ combos are exclusive to train.
 * Added KNN Regressor and Support Vector Regressor algorithms.
 * Standardized algorithm scoring
 * Implemented both SQLite3 and PostgreSQL11 databases.
-* Implemented FTP server vsftp with security using LetsEncrypt SSL certificates.
+* Implemented FTP server vsftpd with security using LetsEncrypt SSL certificates.
 * Started Part 1 of 2 part documentation on Medium.  Part 1: Databases and Part2: Modelling.
-* To Do:  Need to learn Django!  It is more flexible than flask and good with databases.
+* Started Django lesson
 
 
