@@ -93,7 +93,7 @@ Scrapy spider tutorials:
 
 ---
 ### Week 7-8 Notes - Draft
-*Notes November 28 - Dec 11*
+*Notes November 28 - December 11*
 * Stratified train and test by Model_Trim, rather than Trim alone.  Minimum 30+ Model_Trim count does decent predictions.
 Imputing odometer by Year rather than Year-Model was reduced from 6 combos to 1.  But, no prediction benefit because all
 combos are exclusive to train.
@@ -104,4 +104,9 @@ combos are exclusive to train.
 * Started Part 1 of 2 part documentation on Medium.  Part 1: Databases and Part2: Modelling.
 * Started Django lesson
 
-
+### Week 9 Notes
+*Notes December 12 - Dec 18*
+* Finished first draft of Medium overview.
+* Experimented with feature engineering techniques including text feature matrix (TfidfVectorizer) and target encoding.
+* Created manual stacked model.  How -used knn_price prediction as the base feature with LIGHTGBM as the meta-learner.
+* Dumped excess code from preproc and algo notebooks.
