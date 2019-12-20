@@ -92,7 +92,7 @@ Scrapy spider tutorials:
 * Wrote outline of meetings and skills learned. Skills learned include residual analysis, scrapy website scraping, regex queries, isolation forest anomaly detection, downloading images with pillow using image dictionary, deserializing json list, advanced imputing of values using data dictionaries
 
 ---
-### Week 7-8 Notes - Draft
+### Week 7-8 Notes
 *Notes November 28 - December 11*
 * Stratified train and test by Model_Trim, rather than Trim alone.  Minimum 30+ Model_Trim count does decent predictions.
 Imputing odometer by Year rather than Year-Model was reduced from 6 combos to 1.  But, no prediction benefit because all
@@ -109,4 +109,10 @@ combos are exclusive to train.
 * Finished first draft of Medium overview.
 * Experimented with feature engineering techniques including text feature matrix (TfidfVectorizer) and target encoding.
 * Created manual stacked model.  How -used knn_price prediction as the base feature with LIGHTGBM as the meta-learner.
-* Dumped excess code from preproc and algo notebooks.
+
+### Week 10 Notes
+*Notes December 19 - Dec 25*
+* Simplified model by cutting the number of poly features.
+* Added engine displacement, cylinders, and CombMPG from the EPA.  Over quarter of the values are imputed using IterativeImputer.
+* The new features increased LGB model stability.  The performance gap between LGB and Linear Regression has narrowed.
+* Outliers are a problem (Ex. lift kit scenario).  Should retry isolation forest or manual outlier dumping.  No outliers dumped currently.
