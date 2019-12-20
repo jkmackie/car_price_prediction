@@ -104,12 +104,14 @@ combos are exclusive to train.
 * Started Part 1 of 2 part documentation on Medium.  Part 1: Databases and Part2: Modelling.
 * Started Django lesson
 
+---
 ### Week 9 Notes
 *Notes December 12 - Dec 18*
 * Finished first draft of Medium overview.
 * Experimented with feature engineering techniques including text feature matrix (TfidfVectorizer) and target encoding.
 * Created manual stacked model.  How -used knn_price prediction as the base feature with LIGHTGBM as the meta-learner.
 
+---
 ### Week 10 Notes
 *Notes December 19 - Dec 25*
 * Simplified model by cutting the number of poly features.
