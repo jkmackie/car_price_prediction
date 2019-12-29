@@ -112,9 +112,10 @@ combos are exclusive to train.
 * Created manual stacked model.  How -used knn_price prediction as the base feature with LIGHTGBM as the meta-learner.
 
 ---
-### Week 10 Notes
-*Notes December 19 - Dec 25*
+### Week 10-11 Notes
+*Notes December 19 - Jan 1*
 * Simplified model by cutting the number of poly features.
 * Added engine displacement, cylinders, and CombMPG from the EPA.  Over quarter of the values are imputed using IterativeImputer.
 * The new features increased LGB model stability.  The performance gap between LGB and Linear Regression has narrowed.
-* Outliers are a problem (Ex. lift kit scenario).  Should retry isolation forest or manual outlier dumping.  No outliers dumped currently.
+* Manually dumped worst outliers - overpriced or underpriced vehicles.
+* Scraped more data so more Model_Trims meet cutoff size.
