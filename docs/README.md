@@ -115,7 +115,8 @@ combos are exclusive to train.
 ### Week 10-11 Notes
 *Notes December 19 - Jan 1*
 * Simplified model by cutting the number of poly features.
-* Added engine displacement, cylinders, and CombMPG from the EPA.  Over quarter of the values are imputed using IterativeImputer.
+* Added engine displacement, cylinders, and CombMPG from the EPA. Missing values are imputed using IterativeImputer.
 * The new features increased LGB model stability.  The performance gap between LGB and Linear Regression has narrowed.
-* Manually dumped worst outliers - overpriced or underpriced vehicles.
+* Manually dumped worst outliers - overpriced or underpriced vehicles.  Also, dropped F-250 and F-350 because they are omitted
+from EPA data and are really commercial-grade vehicles.
 * Scraped more data so more Model_Trims meet cutoff size.
