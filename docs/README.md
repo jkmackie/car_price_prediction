@@ -106,16 +106,23 @@ combos are exclusive to train.
 
 ---
 ### Week 9 Notes
-*Notes December 12 - Dec 18*
+*Notes December 12 - December 18*
 * Finished first draft of Medium overview.
 * Experimented with feature engineering techniques including text feature matrix (TfidfVectorizer) and target encoding.
 * Created manual stacked model.  How -used knn_price prediction as the base feature with LIGHTGBM as the meta-learner.
 
 ---
 ### Week 10-11 Notes
-*Notes December 19 - Jan 1*
+*Notes December 19 - January 1*
 * Simplified model by cutting the number of features, eliminating collinearity.
 * Added engine displacement and CombMPG from the EPA. Missing values are imputed using IterativeImputer.
 * EPA data is model rather than trim-level data.  This means a Mustang GT gets the same engine displ as a Mustang Ecoboost!
 * Manually dumped worst outliers - overpriced or underpriced vehicles.  Also, dropped F-250 and F-350 because they are omitted from EPA data and are really commercial-grade vehicles.
 * Scraped more data so more Model_Trims meet cutoff size.
+
+---
+### Week 12 Notes
+*Notes January 2 - January 8*
+* Fixed odometer scaling error and bad trim error (edge_edge)
+* Fixed linear regression residuals by creating Model_Trim_Year feature.  Model_Trim_Year encoded with regularization due to rare categories.
+* Write-up Part 2: scraping and cleaning.
