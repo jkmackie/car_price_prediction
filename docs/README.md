@@ -103,7 +103,7 @@ combos are exclusive to train.
 *Notes December 12 - December 18*
 * Finished first draft of Medium overview.
 * Experimented with feature engineering techniques including text feature matrix (TfidfVectorizer) and target encoding.
-* Created manual stacked model.  How -used knn_price prediction as the base feature with LIGHTGBM as the meta-learner.
+* Created manual stacked model.  Used knn_price prediction as base feature with LightGBM as meta-learner.
 
 ---
 ### Week 10-11 Notes
