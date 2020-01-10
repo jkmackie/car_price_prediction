@@ -14,7 +14,7 @@
 
 ---
 ### <ins>ford_vehicle.json</ins>
-* start_urls = [https://houston.craigslist.org/search/cta?auto_make_model=ford](https://houston.craigslist.org/search/cta?auto_make_model=ford)
+* start_urls = [https://elpaso.craigslist.org/search/cta?auto_make_model=ford](https://elpaso.craigslist.org/search/cta?auto_make_model=ford)
 * contains vehicle url, title, price, subLocation (Ex. Katy), attribute dictionary, and image dictionary
 ***
 <br><br/>
