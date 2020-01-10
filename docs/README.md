@@ -19,7 +19,7 @@
 ***
 <br><br/>
 ### start_url screenshot:
-![ford_screenshot](cl_ford_query.PNG)
+![ford_screenshot](start_url.PNG)
 <br><br/>
 
 ---
