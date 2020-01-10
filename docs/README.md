@@ -124,5 +124,11 @@ combos are exclusive to train.
 ### Week 12 Notes
 *Notes January 2 - January 8*
 * Fixed odometer scaling error and bad trim error (edge_edge)
-* Fixed linear regression residuals by creating Model_Trim_Year feature.  Model_Trim_Year encoded with regularization due to rare categories.
-* Write-up Part 2: scraping and cleaning.
+* Fixed linear regression residuals by creating Model_Trim_Year feature.  Model_Trim_Year target encoding needs regularization due to rare categories.
+* Write-up Part 1: Overview
+* Write-up Part 2: Scraping and Cleaning.
+
+---
+### Week 13 Notes
+*Notes January 9 - January 15*
+* Write-up Part 3: Algorithms and Experiments.
