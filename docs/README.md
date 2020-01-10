@@ -38,14 +38,14 @@ Scrapy spider tutorials:
 ### Week 2 Notes
 *Notes October 31 - November 6*
 
-**Scrape car price data from [Craigslist Houston cars+trucks](https://houston.craigslist.org/d/cars-trucks/search/cta)**
+**Scrape car price data from [Craigslist El Paso cars+trucks](https://elpaso.craigslist.org/d/cars-trucks/search/cta)**
 * Get 50+ observations per model trim
 * Organize the raw features in a database
 * Clean the features so they are ready for modeling
 
 **Scrape Filter Details**
 * Filtered for dealer ('ctd') or owner ('cto') and make_model='honda'
-* start_urls = ['https://houston.craigslist.org/search/cta?auto_make_model=ford']
+* start_urls = ['https://elpaso.craigslist.org/search/cta?auto_make_model=ford']
 
 ---
 ### Week 3 Notes
