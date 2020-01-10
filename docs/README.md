@@ -3,7 +3,7 @@
 
 
 
-### We are going to scrape auto features from CraigsList to predict prices.
+### Scrape auto features from CraigsList to predict prices.
 
 ### <ins>Resources</ins>
 * **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>[Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2](https://www.amazon.com/dp/1492032646/ref=cm_sw_r_tw_dp_U_x_HWDQDb0DEX69X)</ins>**
@@ -11,14 +11,12 @@
 * **[TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)**
 <br><br/>
 
-
 ---
 ### <ins>ford_vehicle.json</ins>
 * start_urls = [https://elpaso.craigslist.org/search/cta?auto_make_model=ford](https://elpaso.craigslist.org/search/cta?auto_make_model=ford)
 * contains vehicle url, title, price, subLocation (Ex. Katy), attribute dictionary, and image dictionary
 ***
-<br><br/>
-### start_url screenshot:
+### start_url screenshot: 
 ![ford_screenshot](start_url.PNG)
 <br><br/>
 
