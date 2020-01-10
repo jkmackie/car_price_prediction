@@ -11,10 +11,6 @@
 * **[TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)**
 <br><br/>
 
----
-### <ins>ford_vehicle.json</ins>
-* start_urls = [https://elpaso.craigslist.org/search/cta?auto_make_model=ford](https://elpaso.craigslist.org/search/cta?auto_make_model=ford)
-* contains vehicle url, title, price, subLocation (Ex. Katy), attribute dictionary, and image dictionary
 ***
 ### start_url screenshot: 
 ![ford_screenshot](start_url.PNG)
