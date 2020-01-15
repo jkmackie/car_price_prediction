@@ -126,3 +126,5 @@ combos are exclusive to train.
 ### Week 13 Notes
 *Notes January 9 - January 15*
 * Write-up Part 3: Algorithms and Experiments.
+* Rebuilt Trim pipeline with regex.  Added F-250 Trim specs.
+* Dropping two outliers on Year vs Price plot very effective.
