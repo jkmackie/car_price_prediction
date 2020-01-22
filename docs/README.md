@@ -132,4 +132,5 @@ combos are exclusive to train.
 * Added manual parameter tuning section for (1) Trims: Max Trims per listing, Min Trim Sample Size and 
 (2) Target Encoding: Min samples to include Class, Smoothing.
 * Created automated parameter tuning.  Omitting from articles because manual tuning is more transparent.
+* Alphabetizing Trim pair--"GT Coupe" becomes "Coupe GT"--degrades model performance.  This is despite the increase in Trim samples of a given Class.
 
