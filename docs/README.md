@@ -111,7 +111,7 @@ combos are exclusive to train.
 * Simplified model by cutting the number of features, eliminating collinearity.
 * Added engine displacement and CombMPG from the EPA. Missing values are imputed using IterativeImputer.
 * EPA data is model rather than trim-level data.  This means a Mustang GT gets the same engine displ as a Mustang Ecoboost!
-* Manually dumped worst outliers - overpriced or underpriced vehicles.  Also, dropped F-250 and F-350 because they are omitted from EPA data and are really commercial-grade vehicles.
+* Dropped F-250 and F-350 because they are omitted from EPA data and are really commercial-grade vehicles.
 * Scraped more data so more Model_Trims meet cutoff size.
 
 ---
@@ -123,8 +123,13 @@ combos are exclusive to train.
 * Write-up Part 2: Scraping and Cleaning.
 
 ---
-### Week 13 Notes
-*Notes January 9 - January 15*
+### Week 13-14 Notes
+*Notes January 16 - January 29*
 * Write-up Part 3: Algorithms and Experiments.
-* Rebuilt Trim pipeline with regex.  Added F-250 Trim specs.
-* Dropping two outliers on Year vs Price plot very effective.
+* Rebuilt Trim features with regex.  Trim count per listing is tunable between 1 and 2.
+* Dropped true outliers based on research.
+* Normalized right-skewed prices with square root.  Heteroskedastic residuals in LGB improve.
+* Added manual parameter tuning section for (1) Trims: Max Trims per listing, Min Trim Sample Size and 
+(2) Target Encoding: Min samples to include Class, Smoothing.
+* Created automated parameter tuning.  Omitting from articles because manual tuning is more transparent.
+
