@@ -127,7 +127,7 @@ combos are exclusive to train.
 *Notes January 16 - January 29*
 * Write-up Part 3: Algorithms and Experiments.
 * Rebuilt Trim features with regex.  Trim count per listing is tunable between 1 and 2.
-* Dropped true outliers based on research.
+* Dropped true outliers based on research. Dropping 3+ stdev outliers much faster than car-by-car research.
 * Normalized right-skewed prices with square root.  Heteroskedastic residuals in LGB improve.
 * Added manual parameter tuning section for (1) Trims: Max Trims per listing, Min Trim Sample Size and 
 (2) Target Encoding: Min samples to include Class, Smoothing.
