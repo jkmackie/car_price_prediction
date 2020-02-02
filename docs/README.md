@@ -89,8 +89,7 @@ Scrapy spider tutorials:
 * Stratified train and test by Model_Trim, rather than Trim alone.  Minimum 30+ Model_Trim count does decent predictions.
 Imputing odometer by Year rather than Year-Model was reduced from 6 combos to 1.  But, no prediction benefit because all
 combos are exclusive to train.
-* Added KNN Regressor and Support Vector Regressor algorithms.
-* Standardized algorithm scoring
+* Added KNN Regressor and MLP Regressor algorithms.
 * Implemented both SQLite3 and PostgreSQL11 databases.
 * Implemented FTP server vsftpd with security using LetsEncrypt SSL certificates.
 * Started Part 1 of 2 part documentation on Medium.  Part 1: Databases and Part2: Modelling.
