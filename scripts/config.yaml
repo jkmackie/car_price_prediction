@@ -1,1 +1,16 @@
 # **Add .yaml settings to the file **
+
+from distutils.core import setup
+
+setup(
+    name='car_price',
+    version='0.9',
+    author='Justin Mackie',
+    author_email='jmackie@gmail.com',
+    packages=['car_price'],
+    description='Package to predict Ford auto prices',
+    # install_requires=[
+        # "pandas >= 25.0",
+        # "python == 3.7.5",
+    # ],
+)
