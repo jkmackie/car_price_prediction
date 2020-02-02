@@ -129,6 +129,8 @@ combos are exclusive to train.
 * Normalized right-skewed prices with square root.  Heteroskedastic residuals in LGB improve.
 * Added manual parameter tuning section for (1) Trims: Max Trims per listing, Min Trim Sample Size and 
 (2) Target Encoding: Min samples to include Class, Smoothing.
-* Created automated parameter tuning.  Omitting from articles because manual tuning is more transparent.
 * Alphabetizing Trim pair--"GT Coupe" becomes "Coupe GT"--degrades model performance.  This is despite the increase in Trim samples of a given Class.
-
+* Added Cab feature to segregate cab from trim.  
+* Replaced **Model_Trim_Year** with **Model_Trim** due to target encoding issue for Trim appearing only once.
+Trim in this scenario gets the global average Price, which is highly inaccurate.  Encoding Model_Trim without
+regard to Year is also inaccurate.
