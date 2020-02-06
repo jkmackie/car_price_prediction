@@ -35,7 +35,7 @@ Scrapy spider tutorials:
 * Clean the features so they are ready for modeling
 
 **Scrape Filter Details**
-* Filtered for dealer ('ctd') or owner ('cto') and make_model='honda'
+* Filtered for dealer ('ctd') or owner ('cto') and make_model='ford'
 * start_urls = ['https://elpaso.craigslist.org/search/cta?auto_make_model=ford']
 
 ---
