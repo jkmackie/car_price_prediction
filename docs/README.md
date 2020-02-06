@@ -8,6 +8,8 @@
 <br><br/>
 
 ---
+## <ins>Project Notes</ins>
+
 ### Week 1 Notes
 *Notes October 24 - October 30*
 
