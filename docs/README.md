@@ -110,12 +110,13 @@ combos are exclusive to train.
 * Fixed odometer scaling error and bad trim error (edge_edge)
 * Fixed linear regression residuals by creating Model_Trim_Year feature.  Model_Trim_Year target encoding needs regularization due to rare categories.
 * Write-up Part 1: Overview
-* Write-up Part 2: Scraping and Cleaning.
+* Write-up Part 2: Data Collection and Cleaning.
+* Write-up Part 3: Feature Engineering
 
 ---
 ### Week 13-14 Notes
 *Notes January 16 - January 29*
-* Write-up Part 3: Algorithms and Experiments.
+* Write-up Part 4: Algorithms and Experiments.
 * Rebuilt Trim features with regex.  Trim count per listing is tunable between 1 and 2.
 * Dropped true outliers based on research. Dropping 3+ stdev outliers much faster than car-by-car research.
 * Normalized right-skewed prices with square root.  Heteroskedastic residuals in LGB improve.
