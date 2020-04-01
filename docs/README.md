@@ -1,6 +1,9 @@
 # car_price_prediction
 *CraigsList vehicle price prediction with scikit-learn and pandas libraries.  Build a dataset from scratch, prepare it, engineer features, and evaluate predictions.*
 
+**Article series for the Project:**
+[Auto Price Prediction from Scratch! Part 1: Overview](https://medium.com/analytics-vidhya/auto-price-prediction-from-scratch-part-1-overview-a4f331aaad00)
+
 
 ***
 ### start_url screenshot: 
