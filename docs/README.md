@@ -136,4 +136,5 @@ regard to Year is also inaccurate.
 ### <ins>Resources</ins>
 * **[Notebooks](https://github.com/ageron/handson-ml2) for new <ins>[Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow 2](https://www.amazon.com/dp/1492032646/ref=cm_sw_r_tw_dp_U_x_HWDQDb0DEX69X)</ins>**
 <br><br/>
+
 ***Errata:  Original target encoder function was not robust.  Enhanced function provided here: jupyter_notebook/target_encoder_fn_v2.ipynb***
